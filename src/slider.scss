@@ -1,0 +1,50 @@
+.slider {
+    width: 100%;
+    max-height: 80vh;
+    margin: 24px 0;
+    box-sizing: border-box;
+    // border-radius: 2em;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    i {
+        font-size: 2vw;
+    }
+}
+
+.slide{
+    min-width: 100%;
+    height: 80%;
+    position: relative;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+%btn-styles{
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    width: 10%;
+    height: 80%;
+    background: none;
+    border: none;
+    outline: none;
+    transition: 0.5s;
+    &:hover{
+        background: rgba(0, 0, 0, 0.267);
+        cursor: pointer;
+        i {
+            color: rgba(245, 245, 245, 0.66);
+        }
+    }
+}
+#goLeft{
+   left: 0;
+   @extend %btn-styles;
+}
+#goRight{
+   right: 0;
+   @extend %btn-styles;
+}
