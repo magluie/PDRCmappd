@@ -9,5 +9,5 @@
  npm install
  To ensure that no dependencies are lost. 
  Or you can directly naviage to this link: (I have depolyed the final version on 000webhostapp)
- https://mag-mappd.000webhostapp.com/ 
+ https://magg-mappd.000webhostapp.com/ 
  Thank you!
